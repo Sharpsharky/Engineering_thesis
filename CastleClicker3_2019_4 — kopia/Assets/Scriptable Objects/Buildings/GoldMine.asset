@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121af70aaafa43742bce9d87e8b0cb32, type: 3}
+  m_Name: GoldMine
+  m_EditorClassIdentifier: 
+  name: Gold Mine
+  tile: {fileID: 8612610630016449680, guid: e61562c3edc8ffc4888a5e0fbbddc576, type: 3}
+  icon: {fileID: 21300000, guid: 24c8db04a3e413640b675c0fb9de8adf, type: 3}
+  buildingType: 5
+  suppliesCreatingByThisBuilding:
+  - {fileID: 11400000, guid: fabb5f4a0fc518b4b9a7039459995b01, type: 2}
+  buildingInhancements:
+  - inhencementType: 0
+    coefficientIncreasingPrice: 7
+    supplyPrices:
+    - amount: 350
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 500
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 20
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 3
+  - inhencementType: 1
+    coefficientIncreasingPrice: 6
+    supplyPrices:
+    - amount: 400
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 250
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 15
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 3
+  - inhencementType: 2
+    coefficientIncreasingPrice: 9
+    supplyPrices:
+    - amount: 550
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 700
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 25
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 3
+  initialBuildingPrice:
+    inhencementType: 3
+    coefficientIncreasingPrice: 8
+    supplyPrices:
+    - amount: 12
+      quantityType: 1
+      startingLevel: 0
+      supplyType: 0
+    - amount: 8
+      quantityType: 1
+      startingLevel: 0
+      supplyType: 1
+    - amount: 200
+      quantityType: 1
+      startingLevel: 4
+      supplyType: 3

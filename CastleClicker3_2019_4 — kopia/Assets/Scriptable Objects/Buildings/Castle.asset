@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121af70aaafa43742bce9d87e8b0cb32, type: 3}
+  m_Name: Castle
+  m_EditorClassIdentifier: 
+  name: Castle
+  tile: {fileID: 9021243349916351338, guid: 155b4dc0106ef03479ad5af13b22e0b8, type: 3}
+  icon: {fileID: 21300000, guid: 24c8db04a3e413640b675c0fb9de8adf, type: 3}
+  buildingType: 0
+  initialQuantityOfSupplOverTime: {x: 0, y: 0}
+  constantOfQuantityOfSupplyByClick: 0
+  initialQuantityOfMagazine: {x: 0, y: 0}
+  constantOfMagazineSpaceChangeOverLevel: 0
+  initialQuantityOfSupplyPerClick: {x: 0, y: 0}
+  constantOfSupplyPerClickChangeOverLevel: 0
+  suppliesCreatingByThisBuilding:
+  - {fileID: 11400000, guid: 5402a8d33799efd468509e337d619f5d, type: 2}
+  - {fileID: 11400000, guid: 3a9836ff54e1bc34bb570474fee6ce5a, type: 2}
+  - {fileID: 11400000, guid: 3969ddd006d9cf0418eccd1f90988dee, type: 2}
+  buildingInhancements:
+  - inhencementType: 0
+    coefficientIncreasingPrice: 7
+    supplyPrices:
+    - amount: 200
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 250
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 30
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 4
+  - inhencementType: 1
+    coefficientIncreasingPrice: 5
+    supplyPrices:
+    - amount: 150
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 200
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 12
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 4
+  - inhencementType: 2
+    coefficientIncreasingPrice: 10
+    supplyPrices:
+    - amount: 1
+      quantityType: 1
+      startingLevel: 0
+      supplyType: 0
+    - amount: 600
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 17
+      quantityType: 1
+      startingLevel: 4
+      supplyType: 3
+  initialBuildingPrice:
+    inhencementType: 0
+    coefficientIncreasingPrice: 0
+    supplyPrices: []

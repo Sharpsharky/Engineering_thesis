@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121af70aaafa43742bce9d87e8b0cb32, type: 3}
+  m_Name: Farm
+  m_EditorClassIdentifier: 
+  name: Farm
+  tile: {fileID: 5648560135406569113, guid: d16a201ef17c7b341970685c82e332dd, type: 3}
+  icon: {fileID: 21300000, guid: 24c8db04a3e413640b675c0fb9de8adf, type: 3}
+  buildingType: 1
+  suppliesCreatingByThisBuilding:
+  - {fileID: 11400000, guid: 5402a8d33799efd468509e337d619f5d, type: 2}
+  buildingInhancements:
+  - inhencementType: 0
+    coefficientIncreasingPrice: 8
+    supplyPrices:
+    - amount: 200
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 280
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 2
+    - amount: 17
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 3
+  - inhencementType: 1
+    coefficientIncreasingPrice: 6
+    supplyPrices:
+    - amount: 350
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 450
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 2
+    - amount: 24
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 1
+  - inhencementType: 2
+    coefficientIncreasingPrice: 10
+    supplyPrices:
+    - amount: 750
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 640
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 2
+    - amount: 30
+      quantityType: 1
+      startingLevel: 5
+      supplyType: 3
+  initialBuildingPrice:
+    inhencementType: 3
+    coefficientIncreasingPrice: 6
+    supplyPrices:
+    - amount: 250
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 0
+    - amount: 120
+      quantityType: 0
+      startingLevel: 0
+      supplyType: 1
+    - amount: 12
+      quantityType: 1
+      startingLevel: 4
+      supplyType: 3
